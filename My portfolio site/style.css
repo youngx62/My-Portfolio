@@ -1,0 +1,283 @@
+html {
+  font-family: Raleway;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+ background-color:  #78A5A3;
+ overflow-x: hidden;
+}
+header{
+  
+}
+
+nav {           
+display: block;           
+text-align: center;           
+line-height: 12px;
+position: fixed;
+overflow: hidden;
+background-color: black;
+width: 100%; /* sets width of nav bar across whole page*/
+}
+.nav-item{
+  color: white;
+  padding: 11px;
+}
+.nav-item:hover {
+  color: blue;
+}
+.navtext{
+  font-size: 20px;
+   font-family: Raleway;
+   text-decoration: none;
+}
+.wrappertext {
+  color: white;
+ font-size: 100px;
+text-shadow: 2px 2px #333;
+  }
+#picwrapper {
+  width: 80%;
+  -ms-flex-item-align: center;
+  background: #B0C4DE;
+ align-self: center;
+ text-align: center;
+  padding-top: 20px;
+  opacity: 0.4;
+  filter:alpha (opacity=40); /*This helps make nav bar see through*/
+
+}
+
+
+.bigphoto{
+background-image: url(https://image.ibb.co/hbZzXF/possumking.jpg); /*need to add this to online server*/
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack:center;
+justify-content: center;
+
+}
+
+
+.SocialMedia{
+  font-size: 23px
+    
+}
+.scroll-down {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  70% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+img {
+    border-radius: 100%;
+ display: block;
+    margin: auto;
+    width: 100%;
+    white-space: nowrap;
+    margin-right: 95px;
+display: inline-block;
+  width: 100%
+
+}
+}
+.my-conatiner2{
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+
+}
+ h1{
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-family: Raleway;
+  left: 0px;
+   font-weight: bold;
+  font-size: 75px;
+}
+div {
+  overflow: hidden;
+
+}
+ 
+
+p{
+  font-family: Raleway;
+  width:50%;
+  text-align: center;
+  text-overflow: hidden;
+    padding-left: 23%;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  
+}
+.background{
+  background: #78A5A3;
+}
+h2{
+  color: white;
+   font-family: Raleway;
+   font-size: 25px;
+   text-align: center;
+}
+h3{
+  font-family: Raleway;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  }
+.oprah{
+  width: 320px;
+    height: 180px;
+    border-style: hidden;
+    border-color: white;
+    border-width: medium;
+  border-radius: 20px;
+}
+
+h4{
+  color: white;
+  font-family: Raleway;
+   font-size: 25px;
+}
+
+h5{
+  color: white;
+  font-family: Raleway;
+  font-weight: bold;
+   font-size: 25px;
+  padding-top: 10px
+  
+  
+  
+}
+h6{
+  font-family: Raleway;
+  font-weight: bold;
+
+form {
+  /* center form */
+  width: 90%;
+  max-width: 700px;
+  margin: 2em auto 1em auto;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* size and align */
+  font-size: 2em;
+  display: block;
+  width: 100%;
+  text-align: left;
+  color: #777
+}
+
+input,
+textarea {
+  font: 2px Raleway;
+  color: #666;
+  /* same size for all boxes */
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  /* align label with top of box */
+  vertical-align: top;
+  height: 10em;
+  /* let user resize box */
+  resize: vertical;
+}
+
+.button {
+  display: block;
+  background-color: #5588ff;
+  color: white;
+  font-size: 2px;
+  border-radius: 2px;
+  border: 0;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3366dd;
+}
+
+.button:active {
+  background-color: #3366dd;
+}
+
+#view-normal-bio {
+  margin: 2px auto;
+  width: 80%;
+  max-width: 500px;
+}
+
+#form-button {
+  margin: 2px auto;
+  width: 100%;
+  max-width: 500px;
+}
