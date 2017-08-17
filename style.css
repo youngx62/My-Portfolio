@@ -192,13 +192,9 @@ h3{
   border-radius: 20px;
 }
 
-h4{
-  color: white;
-  font-family: Raleway;
-   font-size: 25px;
-}
 
-h5{
+
+h4{
   color: white;
   font-family: Raleway;
   font-weight: bold;
@@ -234,7 +230,7 @@ label {
 
 input,
 textarea {
-  font: 2px Raleway;
+  font: 2px Sansita;
   color: #666;
   /* same size for all boxes */
   width: 100%;
