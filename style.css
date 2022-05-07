@@ -125,14 +125,14 @@ justify-content: center;
   }
 }
 img {
-    border-radius: 40%;
+    border-radius: 30%;
  display: block;
     margin: auto;
     width: 20%;
     white-space: nowrap;
     margin-right: 95px;
 display: block;
-  width: 20%
+  width: 50%
 
 }
 }
