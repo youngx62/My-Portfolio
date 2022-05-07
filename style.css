@@ -279,3 +279,18 @@ textarea {
   li{
     font-family: Raleway;
   }
+.image-wrapper {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 10px 0;
+}
+.image-wrapper img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
