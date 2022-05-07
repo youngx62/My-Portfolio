@@ -280,3 +280,9 @@ textarea {
   li{
     font-family: Raleway;
   }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
