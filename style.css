@@ -284,7 +284,6 @@ textarea {
   height: 50px;
   overflow: hidden;
   position: relative;
-  background: rgba(0, 0, 0, 0.5);
   margin: 10px 0;
 }
 .image-wrapper img {
