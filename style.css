@@ -125,7 +125,7 @@ justify-content: center;
   }
 }
 img {
-    border-radius: 50%;
+    border-radius: 100%;
  display: block;
     margin: auto;
     width: 50%;
